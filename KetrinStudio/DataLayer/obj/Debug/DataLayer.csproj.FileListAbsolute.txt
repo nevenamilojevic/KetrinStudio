@@ -1,0 +1,12 @@
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\Ivana\Desktop\dfdf\KetrinStudioProba\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\Ivana\Desktop\dfdf\KetrinStudioProba\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\Ivana\Desktop\dfdf\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Ivana\Desktop\dfdf\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ivana\Desktop\dfdf\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\Ivana\Desktop\dfdf\KetrinStudioProba\DataLayer\obj\Debug\DataLayer.pdb
