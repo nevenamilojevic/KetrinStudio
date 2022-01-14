@@ -1,0 +1,18 @@
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Nemanja\Desktop\New folder\KetrinStudioProba\BusinessLayer\obj\Debug\BusinessLayer.pdb
