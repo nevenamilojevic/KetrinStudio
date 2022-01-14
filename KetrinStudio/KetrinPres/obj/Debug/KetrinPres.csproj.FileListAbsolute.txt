@@ -1,0 +1,16 @@
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\bin\Debug\KetrinPres.exe.config
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\bin\Debug\KetrinPres.exe
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\bin\Debug\KetrinPres.pdb
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\bin\Debug\BusinessLayer.dll
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\bin\Debug\DataLayer.dll
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\bin\Debug\BusinessLayer.pdb
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\bin\Debug\DataLayer.pdb
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.csproj.AssemblyReference.cache
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.Form2.resources
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.FrmClose2.resources
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.FrmWrite2.resources
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.Properties.Resources.resources
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.csproj.GenerateResource.cache
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.csproj.CoreCompileInputs.cache
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.exe
+C:\Users\TIJANA\Desktop\projekta365\KetrinStudioProba\KetrinPres\obj\Debug\KetrinPres.pdb
