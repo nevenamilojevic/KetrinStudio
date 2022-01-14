@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58079BBC-5BC4-4697-A101-8EC6839BD8B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KetrinPres</RootNamespace>
+    <AssemblyName>KetrinPres</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClose2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClose2.Designer.cs">
+      <DependentUpon>FrmClose2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWrite2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWrite2.Designer.cs">
+      <DependentUpon>FrmWrite2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClose2.resx">
+      <DependentUpon>FrmClose2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWrite2.resx">
+      <DependentUpon>FrmWrite2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\21 Clever Small Salon Design Ideas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful WOMAN Princess Curls Cute Hair Flower Flowing Shop Salon VECTOR Jpeg Png EPS Svg Clip Art Profile Logo Cricut Cut Cutting Beauty.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_341.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{B5DAF108-F817-470B-BFF4-AD5253D241B0}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{B4AD2402-3A99-4939-935A-8F94B8EB8DC3}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

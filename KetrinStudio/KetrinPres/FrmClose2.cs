@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PresentationLayer
+namespace KetrinPres
 {
-    public partial class Form1 : Form
+    public partial class FrmClose2 : Form
     {
-        public Form1()
+        public FrmClose2()
         {
             InitializeComponent();
         }
