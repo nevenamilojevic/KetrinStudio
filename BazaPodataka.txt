@@ -1,43 +1,43 @@
 CREATE TABLE [dbo].[Frizer] (
-    [Id]             INT           IDENTITY (1, 1) NOT NULL,
+    [Id_Frizer]             INT           IDENTITY (1, 1) NOT NULL,
     [BrojOsiguranja] NVARCHAR (50) NOT NULL,
-    [Ime]            NVARCHAR (50) NOT NULL,
-    [Prezime]        NVARCHAR (50) NOT NULL,
+    [ImeF]            NVARCHAR (50) NOT NULL,
+    [PrezimeF]        NVARCHAR (50) NOT NULL,
     [Adresa]         NVARCHAR (50) NOT NULL,
-    [BrojTelefona]   NVARCHAR (20) NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
+    [BrojTelefonaF]   NVARCHAR (20) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id_Frizer] ASC)
 );
 
 SET IDENTITY_INSERT [dbo].[Frizer] ON
-INSERT INTO [dbo].[Frizer] ([Id], [BrojOsiguranja], [Ime], [Prezime], [Adresa], [BtojTelefona]) VALUES (1, N'0004586', N'Ana', N'Markovic', N'Vojvode Stepe 6, Cacak', N'0641863548')
-INSERT INTO [dbo].[Frizer] ([Id], [BrojOsiguranja], [Ime], [Prezime], [Adresa], [BtojTelefona]) VALUES (2, N'0004567', N'Stefan', N'Ivanovic', N'Kneza Milos 31, Cacak', N'0607593214')
-INSERT INTO [dbo].[Frizer] ([Id], [BrojOsiguranja], [Ime], [Prezime], [Adresa], [BtojTelefona]) VALUES (3, N'0004568', N'Elena', N'Novakvic', N'Nemanjina 15, Cacak', N'0615485632')
+INSERT INTO [dbo].[Frizer] ([Id_Frizer], [BrojOsiguranja], [ImeF], [PrezimeF], [Adresa], [BrojTelefonaF]) VALUES (1, N'0004586', N'Ana', N'Markovic', N'Vojvode Stepe 6, Cacak', N'0641863548')
+INSERT INTO [dbo].[Frizer] ([Id_Frizer], [BrojOsiguranja], [ImeF], [PrezimeF], [Adresa], [BrojTelefonaF]) VALUES (2, N'0004567', N'Stefan', N'Ivanovic', N'Kneza Milos 31, Cacak', N'0607593214')
+INSERT INTO [dbo].[Frizer] ([Id_Frizer], [BrojOsiguranja], [ImeF], [PrezimeF], [Adresa], [BrojTelefonaF]) VALUES (3, N'0004568', N'Elena', N'Novakvic', N'Nemanjina 15, Cacak', N'0615485632')
 SET IDENTITY_INSERT [dbo].[Frizer] OFF
 
 CREATE TABLE [dbo].[Klijent] (
-    [Id]           INT           IDENTITY (1, 1) NOT NULL,
-    [Ime]          NVARCHAR (50) NOT NULL,
-    [Prezime]      NVARCHAR (50) NOT NULL,
-    [BrojTelefona] NVARCHAR (20) NOT NULL,
+    [Id_Klijent]           INT           IDENTITY (1, 1) NOT NULL,
+    [ImeK]          NVARCHAR (50) NOT NULL,
+    [PrezimeK]      NVARCHAR (50) NOT NULL,
+    [BrojTelefonaK] NVARCHAR (20) NOT NULL,
     [Email]        NVARCHAR (50) NULL,
-    [Datum tretmana] DATETIME NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
+    [DatumTretmana] DATETIME NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id_Klijent] ASC)
 );
 
 
 CREATE TABLE [dbo].[Vrsta] (
-    [Id]    INT           IDENTITY (1, 1) NOT NULL,
+    [Id_Vrsta]    INT           IDENTITY (1, 1) NOT NULL,
     [Naziv] NVARCHAR (50) NOT NULL,
     [Cena]  FLOAT (53)    NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
+    PRIMARY KEY CLUSTERED ([Id_Vrsta] ASC)
 );
 
 SET IDENTITY_INSERT [dbo].[Vrsta] ON
-INSERT INTO [dbo].[Vrsta] ([Id], [Naziv], [Cena]) VALUES (1, N'Sisanje', 300)
-INSERT INTO [dbo].[Vrsta] ([Id], [Naziv], [Cena]) VALUES (2, N'Feniranje', 800)
-INSERT INTO [dbo].[Vrsta] ([Id], [Naziv], [Cena]) VALUES (3, N'Farbanje', 5000)
-INSERT INTO [dbo].[Vrsta] ([Id], [Naziv], [Cena]) VALUES (4, N'Satiranje', 3500)
-INSERT INTO [dbo].[Vrsta] ([Id], [Naziv], [Cena]) VALUES (5, N'Mini-val', 1000)
-INSERT INTO [dbo].[Vrsta] ([Id], [Naziv], [Cena]) VALUES (6, N'Keratin', 10000)
-INSERT INTO [dbo].[Vrsta] ([Id], [Naziv], [Cena]) VALUES (7, N'Pranje kose', 150)
+INSERT INTO [dbo].[Vrsta] ([Id_Vrsta], [Naziv], [Cena]) VALUES (1, N'Sisanje', 300)
+INSERT INTO [dbo].[Vrsta] ([Id_Vrsta], [Naziv], [Cena]) VALUES (2, N'Feniranje', 800)
+INSERT INTO [dbo].[Vrsta] ([Id_Vrsta], [Naziv], [Cena]) VALUES (3, N'Farbanje', 5000)
+INSERT INTO [dbo].[Vrsta] ([Id_Vrsta], [Naziv], [Cena]) VALUES (4, N'Satiranje', 3500)
+INSERT INTO [dbo].[Vrsta] ([Id_Vrsta], [Naziv], [Cena]) VALUES (5, N'Mini-val', 1000)
+INSERT INTO [dbo].[Vrsta] ([Id_Vrsta], [Naziv], [Cena]) VALUES (6, N'Keratin', 10000)
+INSERT INTO [dbo].[Vrsta] ([Id_Vrsta], [Naziv], [Cena]) VALUES (7, N'Pranje kose', 150)
 SET IDENTITY_INSERT [dbo].[Vrsta] OFF
